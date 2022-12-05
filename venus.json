@@ -1,0 +1,15 @@
+{
+    "name": "VENUS",
+    "radius": "6 052 km",
+    "relative_radius": "0,95xEarth",
+    "volume": "0,88xEarth",
+    "mass": "0,81xEarth",
+    "length_of_day": "243 Earth days",
+    "length_of_year": "225 Earth days",
+    "orbital_speed": "126 077 km/h",
+    "surface_temperature": "462°C",
+    "rotation": "6,52 km/h",
+    "src": "venus/venus.jpg"
+  }
+
+

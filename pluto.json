@@ -1,0 +1,13 @@
+{
+    "name": "PLUTO",
+    "radius": "1151 km",
+    "relative_radius": "0,2xEarth",
+    "volume": "0,006xEarth",
+    "mass": "0,002xEarth",
+    "length_of_day": "6 Earth days",
+    "length_of_year": "248 Earth years",
+    "orbital_speed": "17 096 km/h",
+    "surface_temperature": "-228°C",
+    "rotation": "47 km/h",
+    "src": "pluto/pluto.jpg"
+  }

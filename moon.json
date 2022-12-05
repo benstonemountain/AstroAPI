@@ -1,0 +1,13 @@
+{
+    "name": "MOON",
+    "radius": "1737 km",
+    "relative_radius": "0,27xEarth",
+    "volume": "0,02xEarth",
+    "mass": "0,0123xEarth",
+    "length_of_day": "27 Earth days",
+    "length_of_year": "27 Earth days",
+    "orbital_speed": "3683 km/h",
+    "surface_temperature": "-173/117°C",
+    "rotation": "16.7 km/h",
+    "src": "moon/moon.jpg"
+  }

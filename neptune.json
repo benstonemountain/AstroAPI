@@ -1,0 +1,13 @@
+{
+    "name": "NEPTUNE",
+    "radius": "24 764 km",
+    "relative_radius": "4xEarth",
+    "volume": "58xEarth",
+    "mass": "17xEarth",
+    "length_of_day": "16 hours",
+    "length_of_year": "165 Earth years",
+    "orbital_speed": "19 720 km/h",
+    "surface_temperature": "-214°C",
+    "rotation": "9 719 km/h",
+    "src": "neptune/neptune.jpg"
+  }

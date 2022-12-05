@@ -1,0 +1,13 @@
+{
+    "name": "EARTH",
+    "radius": "6378 km",
+    "relative_radius": "-",
+    "volume": "1.08321 x 10 a tizenkettediken km3",
+    "mass": "5.97217 X 10 a huszonnegyediken  kg",
+    "length_of_day": "24 hours",
+    "length_of_year": "365 days",
+    "orbital_speed": "107 200 km/h",
+    "surface_temperature": "14°C",
+    "rotation": "1674.4 km/h",
+    "src": "earth/earth.jpg"
+  }

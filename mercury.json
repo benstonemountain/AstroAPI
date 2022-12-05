@@ -1,0 +1,13 @@
+{
+  "name": "MERCURY",
+  "radius": "2 440 km",
+  "relative_radius": "0,4xEarth",
+  "volume": "0,056xEarth",
+  "mass": "0.055xEarth",
+  "length_of_day": "59 Earth days",
+  "length_of_year": "88 Earth days",
+  "orbital_speed": "172 341 km/h",
+  "surface_temperature": "-173°C/427°C ",
+  "rotation": "10,83 km/h",
+  "src": "mercury/mercury.jpg"
+}
