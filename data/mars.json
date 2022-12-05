@@ -1,0 +1,16 @@
+{
+  "name": "MARS",
+  "radius": "3 397  km",
+  "relative_radius": "0,53xEarth",
+  "volume": "0,15xEarth",
+  "mass": "0.107xEarth",
+  "length_of_day": "25 hours",
+  "length_of_year": "2 Earth year",
+  "orbital_speed": "86 871 km/h",
+  "surface_temperature": "-60°C",
+  "rotation": "866 km/h",
+  "src": "mars/mars.jpg"
+}
+
+
+

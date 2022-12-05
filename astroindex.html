@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="astroStyle.css" />
+    <script src="astroscript.js" defer></script>
+    <title>Astro</title>
+  </head>
+
+  <body>
+    <div class="all-content">
+      <div class="wrapper">
+        <div class="data-fields">
+          <div class="data-field country">
+            <label for="inputValueCountry" id="labelCountry">Country:</label>
+            <select id="inputValueCountry"></select>
+          </div>
+
+          <div class="data-field city">
+            <label for="inputValueCity" id="labelCity">City: </label>
+            <input type="text" id="inputValueCity" />
+          </div>
+
+          <div class="data-field date">
+            <label for="inputValueDate" id="labelDate">Date: </label>
+            <input
+              type="text"
+              id="inputValueDate"
+              maxlength="10"
+              placeholder="yyyy-mm-dd"
+            />
+          </div>
+
+          <div class="data-field time">
+            <label for="inputValueTime" id="labelTime">Time: </label>
+            <input
+              type="text"
+              id="inputValueTime"
+              maxlength="8"
+              placeholder="hh:mm:ss"
+            />
+          </div>
+
+          <div class="data-field spaceObject">
+            <label for="inputValueObject" id="labelObject"> Object:</label>
+            <select id="inputValueObject">
+              <option value="choose">Choose an object</option>
+              <option value="Sun" id="sun">Sun</option>
+              <option value="Moon" id="moon">Moon</option>
+              <option value="Mercury" id="mercury">Mercury</option>
+              <option value="Venus" id="venus">Venus</option>
+              <option value="Earth" id="earth">Earth</option>
+              <option value="Mars" id="mars">Mars</option>
+              <option value="Jupiter" id="jupiter">Jupiter</option>
+              <option value="Saturn" id="saturn">Saturn</option>
+              <option value="Uranus" id="uranus">Uranus</option>
+              <option value="Neptune" id="neptune">Neptune</option>
+              <option value="Pluto" id="pluto">Pluto</option>
+            </select>
+          </div>
+
+          <input type="submit" class="submitButton" value="Submit" />
+        </div>
+        <div class="gradient"></div>
+      </div>
+
+      
+
+  <div class="content-table-datas">
+
+      <div class="content"></div>
+
+      <!-- TÁBLÁZAT -->
+
+      <div class="table-wrapper">
+        <h1 id="planet-title-name"></h1>
+
+        <table>
+          <tbody id="planet-datas">
+            <tr>
+              <th colspan="2">CURRENT DATAS</th>
+            </tr>
+            <tr>
+              <td>Distance from Earth</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Brightness(Magnitude)</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Elongation</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Constellation</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- PIC -->
+
+        <div class="image-container">
+          <img src="" alt="planet-mercury" id="planet-img" />
+        </div>
+
+        <!-- BASIC DATAS -->
+        <table>
+          <tbody id="basic-datas">
+            <tr>
+              <th colspan="2">BASIC DATAS</th>
+            </tr>
+            <tr>
+              <td>Radius</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Relative radius</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Volume</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Mass</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Length of Day</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Length of Year</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Orbital Speed</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Surface temperature</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Rotation</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div> 
+  </div>
+ 
+  </body>
+</html>

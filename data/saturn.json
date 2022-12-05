@@ -1,0 +1,13 @@
+{
+    "name": "SATURN",
+    "radius": "60 268km",
+    "relative_radius": "9xEarth",
+    "volume": "764xEarth",
+    "mass": "95xEarth",
+    "length_of_day": "11 hours",
+    "length_of_year": "29 Earth years",
+    "orbital_speed": "34 821 km/h",
+    "surface_temperature": "-178°C",
+    "rotation": "36 840 km/h",
+    "src": "saturn/saturn.jpg"
+  }

@@ -1,0 +1,13 @@
+{
+  "name": "URANUS",
+  "radius": "25 559 km",
+  "relative_radius": "4xEarth",
+  "volume": "63xEarth",
+  "mass": "15xEarth",
+  "length_of_day": "17 hours (retrograde)",
+  "length_of_year": "84 Earth years",
+  "orbital_speed": "24 607km/h",
+  "surface_temperature": "-216°C",
+  "rotation": "14 794 km/h",
+  "src": "uranus/uranus.jpg"
+}

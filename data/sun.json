@@ -1,0 +1,13 @@
+{
+    "name": "SUN",
+    "radius": "695 500 km",
+    "relative_radius": "109xEarth",
+    "volume": "1 300 000xEarth",
+    "mass": "333 333xEarth",
+    "length_of_day": "25 Earth days",
+    "length_of_year": "226 000 000 years",
+    "orbital_speed": "828 000km/h",
+    "surface_temperature": "5500°C",
+    "rotation": "6,875 km/h",
+    "src": "sun/sun.jpg"
+  }
