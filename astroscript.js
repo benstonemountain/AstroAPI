@@ -24,7 +24,7 @@ console.log(planetDatas.children[2].children[1]);
 
 
 
-fetch("./countries.json")
+fetch("./data/countries.json")
   .then((response) => response.json())
   .then((data) => {
     let output = "";
@@ -93,7 +93,7 @@ submit.addEventListener("click", function () {
   }
 
   //Lekérem a helyi json file-ból a beütött országot
-  fetch("./countries.json")
+  fetch("./data/countries.json")
     .then((response) => response.json())
     .then((data) => {
       let myCountry = searchedCountry(data.country_codes, countryName);
