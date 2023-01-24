@@ -22,8 +22,6 @@ let whatever = "Ez tartalom";
 console.log(planetDatas.children[1].children[1]);
 console.log(planetDatas.children[2].children[1]);
 
-
-
 fetch("./data/countries.json")
   .then((response) => response.json())
   .then((data) => {
@@ -38,7 +36,6 @@ let searchedCountry = function (countries, countryName) {
   let country = countries.find((c) => c.country === countryName.value);
   return country;
 };
-
 
 const basicDataEndpointNames = {
   Sun: "sun",
@@ -75,7 +72,8 @@ submit.addEventListener("click", function () {
     fetch(`/${getEndpoint()}.json`)
       .then((response) => response.json())
       .then((data) => {
-        planetImage.src = `/PICS/${data.src}`;
+        planetImage.src = `${data.src}`;
+        console.log(data.src);
         planetTitleName.textContent = data.name;
         basic_datas.children[1].children[1].textContent = data.radius;
         basic_datas.children[2].children[1].textContent = data.relative_radius;
@@ -84,7 +82,8 @@ submit.addEventListener("click", function () {
         basic_datas.children[5].children[1].textContent = data.length_of_day;
         basic_datas.children[6].children[1].textContent = data.length_of_year;
         basic_datas.children[7].children[1].textContent = data.orbital_speed;
-        basic_datas.children[8].children[1].textContent = data.surface_temperature;
+        basic_datas.children[8].children[1].textContent =
+          data.surface_temperature;
         basic_datas.children[9].children[1].textContent = data.rotation;
       })
       .catch((error) => console.log("VALAMI HIBA TÖRTÉNT", error));
@@ -98,7 +97,6 @@ submit.addEventListener("click", function () {
     .then((data) => {
       let myCountry = searchedCountry(data.country_codes, countryName);
       console.log(myCountry);
-
 
       //a helyi json file-ból kiszedett ország iso kódja
       let countryCodeofCountry = myCountry.alpha2;
@@ -188,9 +186,8 @@ submit.addEventListener("click", function () {
 
               planetDatas.children[2].children[1].textContent = magnitude;
               planetDatas.children[3].children[1].textContent = elongation;
-              planetDatas.children[4].children[1].textContent= constellation;
+              planetDatas.children[4].children[1].textContent = constellation;
 
-             
               myTable.style.opacity = 1;
             })
             .catch((err) => console.log());
