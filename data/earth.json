@@ -9,5 +9,5 @@
     "orbital_speed": "107 200 km/h",
     "surface_temperature": "14°C",
     "rotation": "1674.4 km/h",
-    "src": "earth/earth.jpg"
+    "src": "./PICS/earth/earth.jpg"
   }

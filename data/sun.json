@@ -9,5 +9,5 @@
     "orbital_speed": "828 000km/h",
     "surface_temperature": "5500°C",
     "rotation": "6,875 km/h",
-    "src": "sun/sun.jpg"
+    "src": "./PICS/sun/sun.jpg"
   }

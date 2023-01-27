@@ -69,9 +69,10 @@ submit.addEventListener("click", function () {
 
   //bolygó jsonből adatok táblázatba
   try {
-    fetch(`/${getEndpoint()}.json`)
+    fetch(`./data/${getEndpoint()}.json`)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         planetImage.src = `${data.src}`;
         console.log(data.src);
         planetTitleName.textContent = data.name;
